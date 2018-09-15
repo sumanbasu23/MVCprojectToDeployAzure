@@ -18,7 +18,7 @@ namespace MVCBasics.Controllers
             ViewBag.Countries = new List<string>()
             {
                 "USA",
-                "UK",
+                "ALGERIA",
                 "AUSTRALIA",
                 "INDIA"
 
