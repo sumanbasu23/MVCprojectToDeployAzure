@@ -19,7 +19,7 @@ namespace MVCBasics.Controllers
             {
                 "USA",
                 "UK",
-                "RUSSIA",
+                "AUSTRALIA",
                 "INDIA"
 
             };
