@@ -1,0 +1,28 @@
+﻿@using MVCBasics.Helpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h3>MVC Basics with Azure Deloyment Git Version</h3>
+        @Html.TextBox("name","Suman Basu",new {style="width:130px"})
+        @*@Html.DropDownList("gender")*@
+        @Html.CheckBox("ckhdevloper",true,new { style = "background-color:red" })
+        @Html.File("custmhlper")
+    </div>
+    <div>
+        @Html.ActionLink("MVCValidationTest", "Registration");
+    </div>
+    <div>
+        @Html.ActionLink("MVCActionFilterTest", "Registration");
+    </div>
+</body>
+</html>
